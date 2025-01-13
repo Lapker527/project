@@ -8,7 +8,6 @@ FOLDER = '/api/entries/'
 def hello_world():
     return "Hello, World!"
 
-
 @app.route('/api/entries/')
 def get_entries():
     entry_manager = EntryManager(FOLDER)
