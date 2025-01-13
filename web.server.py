@@ -2,7 +2,6 @@ from flask import Flask, request
 from resources import EntryManager, Entry
 
 app = Flask(__name__)
-
 FOLDER = '/api/entries/'
 
 @app.route("/")

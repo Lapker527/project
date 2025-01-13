@@ -112,7 +112,6 @@ class EntryManager:
 
     def add_entry(self, title):
         self.entries.append(Entry(title))
-
     def save(self):
         for entry in self.entries:
             entry.save(self.data_path)

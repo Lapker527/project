@@ -54,7 +54,6 @@ grocery_list = {
 }
 
 entry = Entry.from_json(grocery_list)
-
 entry.save('C:\\Users\\avosa\\PycharmProjects')
 loaded_entry = Entry.load('C:\\Users\\avosa\\PycharmProjects\\Продукты.json')
 
