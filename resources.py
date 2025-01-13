@@ -6,7 +6,6 @@ def print_with_indent(value, indent=4):
     indentation = '\t' * indent
     print(f'{indentation}{value}')
 
-
 class Entry:
     def __init__(self, title, entries=None, parent=None):
         self.title = title
