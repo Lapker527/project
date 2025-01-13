@@ -2,7 +2,6 @@
 import os
 import json
 
-
 def print_with_indent(value, indent=4):
     indentation = '\t' * indent
     print(f'{indentation}{value}')

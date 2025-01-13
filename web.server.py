@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 FOLDER = '/api/entries/'
 
-
 @app.route("/")
 def hello_world():
     return "Hello, World!"
